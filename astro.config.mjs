@@ -1,27 +1,31 @@
-import { defineConfig } from 'astro/config';
+import {defineConfig} from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	integrations: [
-		starlight({
-			title: 'My Docs',
-			social: {
-				github: 'https://github.com/withastro/starlight',
-			},
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+    integrations: [
+        starlight({
+            title: 'Nostalgiccraft Dokumentation',
+            favicon: '/favicon.png',
+            social: {
+                github: 'https://github.com/Nostalgiccraft-net',
+                discord: 'https://discord.gg/yGaFFrbAmc',
+                youtube: 'https://www.youtube.com/channel/UCddOioDpJwtkzQEmPQ07HvA',
+                instagram: 'https://www.instagram.com/nostalgiccraft_net/',
+            },
+            logo: {
+                alt: 'Nostalgiccraft Logo',
+                src: './src/assets/favicon.png',
+            },
+            defaultLocale: 'de',
+            locales: {
+                "en": {
+					"label": "English",
 				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-			],
-		}),
-	],
+                "de": {
+                    "label": "Deutsch",
+                }
+            }
+        }),
+    ],
 });
