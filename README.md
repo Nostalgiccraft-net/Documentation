@@ -4,12 +4,12 @@
 
 ## What is Nostalgiccraft?
 
-Nostalgiccraft is a Minecraft server that aims to bring back the nostalgia of Minecraft. We are currently in development, and we are looking for developers to help us out. If you are interested, please join our [Discord](https://discord.gg/k5wW5kuD7m) and contact us.
+Nostalgiccraft is a Minecraft server that aims to bring back the nostalgia of Minecraft. We are currently in development, and we are looking for developers to help us out. If you are interested, please join our [Discord](https://discord.gg/NqxhvnhE7V) and contact us.
 
 
 ## Contributing
 
-Anyone is welcome to contribute to the documentation. If you would like to contribute, please fork the repository and submit a pull request. If you are unsure of how to do this, please contact us on our [Discord](https://discord.gg/k5wW5kuD7m).
+Anyone is welcome to contribute to the documentation. If you would like to contribute, please fork the repository and submit a pull request. If you are unsure of how to do this, please contact us on our [Discord](https://discord.gg/NqxhvnhE7V).
 If you notice any issues with the documentation, please submit an issue on github.
 
 ## Building
