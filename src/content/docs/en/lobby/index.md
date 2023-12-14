@@ -4,12 +4,12 @@ description: Here you can find information about how our lobby works.
 ---
 ## Record
 
-You can select your game mode using the record. The record is located in the hotbar in the first slot. When you hold the record in your hand, you can select the game mode with the right mouse button.
+You can select your game mode using the record. The record is located in the hot bar in the first slot. When you hold the record in your hand, you can select the game mode with the right mouse button.
 
 ![picture_lobby_spielmodi.png](../../../../assets/img/en/picture_lobby_spielmodi_en.png)
 ## Paper
 
-You can change the lobby by using the paper, which is located in the 9th slot of your hotbar. Hold the paper in your hand and right-click to change the lobby.
+You can change the lobby by using the paper, which is located in the 9th slot of your hot bar. Hold the paper in your hand and right-click to change the lobby.
 
 ![picture_lobby_change.png](../../../../assets/img/en/picture_lobby_change_en.png)
 ## Settings
