@@ -30,3 +30,7 @@ In diesem Bereich hast du die Möglichkeit, deine Spracheinstellungen anzupassen
 Hier kannst du deine Ausrüstung nach Belieben individualisieren. Probiere verschiedene Rüstungskomponenten aus, wähle dein Gadget sorgfältig aus und verleihe deinem Charakter mit Partikeln eine persönliche Note. Entdecke die Vielfalt der Anpassungsmöglichkeiten und gestalte deine Ausstattung nach deinem eigenen Stil und den Anforderungen deiner Abenteuer. Tauche ein und mache jede Ausrüstungsänderung zu einem Ausdruck deiner Einzigartigkeit in der Welt, die du erkundest.
 
 ![lobby_settings_kosmetica_de.png](../../../../assets/img/de/lobby_settings_kosmetica_de.png)
+
+### Kontakte
+
+Hier hast du die Möglichkeit, Freunde hinzuzufügen und mit ihnen zu chatten. Zusätzlich kannst du auch deines Freundes anfragen verwalten und einsehen. Tauche ein in die Welt der sozialen Interaktion und genieße die Möglichkeit, in Verbindung zu bleiben!

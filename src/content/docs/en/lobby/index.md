@@ -30,3 +30,7 @@ In this area, you have the opportunity to adjust your language settings and view
 Here, you can customize your equipment as you wish. Try out different armor components, carefully choose your gadget, and give your character a personal touch with particles. Discover the variety of customization options and design your equipment according to your own style and the requirements of your adventures. Dive in and make every equipment change an expression of your uniqueness in the world you are exploring.
 
 ![lobby_settings_kosmetica_en.png](../../../../assets/img/en/lobby_settings_kosmetica_en.png)
+
+### Contacts
+
+Welcome! Here, you have the opportunity to add friends and chat with them. Additionally, you can also manage and view your friend requests. Dive into the world of social interaction and enjoy the chance to stay connected! #
