@@ -73,6 +73,21 @@ export default defineConfig({
                     ]
                 },
                 {
+                    label: "BorderRun",
+                    translations: {
+                        de: "BorderRun"
+                    },
+                    items: [
+                        {
+                            label: "How BorderRun works",
+                            translations: {
+                                de: "Wie BorderRun funktioniert"
+                            },
+                            link: "/borderrun"
+                        }
+                    ]
+                },
+                {
                     label: 'NostalgicCity',
                     translations: {
                         de: 'NostalgicCity'
