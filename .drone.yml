@@ -20,6 +20,7 @@ steps:
       - sleep 5
       - docker build . -t nostalgic-docs
       - docker save -o /artifacts/docs.tar nostalgic-docs
+      - chown 1000:1000 /artifacts/docs.tar
   - name: deploy
     image: appleboy/drone-ssh
     settings:
