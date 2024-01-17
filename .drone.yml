@@ -19,6 +19,7 @@ steps:
     commands:
       - sleep 5
       - docker build . -t nostalgic-docs
+      - docker save -o /artifacts/docs.tar nostalgic-docs
   - name: deploy
     image: appleboy/drone-ssh
     settings:
@@ -31,8 +32,8 @@ steps:
       port: 22
       command_timeout: 2m
       script:
-        - docker load < ~/artifacts/bigbrother-operator.tar
-        - cd ~/bigbrother/operator
+        - docker load < ~/artifacts/nostalgic-docs
+        - cd ~/docs
         - docker compose down
         - docker compose up -d
     when:
