@@ -1,0 +1,55 @@
+kind: pipeline
+name: deploy
+type: docker
+
+
+steps:
+  - name: build
+    image: docker:dind
+    volumes:
+      - name: artifacts
+        path: /artifacts
+      - name: dockersock
+        path: /var/run
+    environment:
+      REPO_USER:
+        from_secret: repo_user
+      REPO_PASS:
+        from_secret: repo_pwd
+    commands:
+      - sleep 5
+      - docker build . -t nostalgic-docs
+  - name: deploy
+    image: appleboy/drone-ssh
+    settings:
+      host:
+        from_secret: SSH_HOST
+      username:
+        from_secret: SSH_USER
+      key:
+        from_secret: SSH_KEY
+      port: 22
+      command_timeout: 2m
+      script:
+        - docker load < ~/artifacts/bigbrother-operator.tar
+        - cd ~/bigbrother/operator
+        - docker compose down
+        - docker compose up -d
+    when:
+      event: [ "promote" ]
+
+
+services:
+- name: docker
+  image: docker:dind
+  privileged: true
+  volumes:
+  - name: dockersock
+    path: /var/run
+
+volumes:
+  - name: dockersock
+    temp: {}
+  - name: artifacts
+    host:
+      path: /home/user/artifacts
