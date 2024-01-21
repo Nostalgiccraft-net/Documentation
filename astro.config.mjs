@@ -108,13 +108,6 @@ export default defineConfig({
                             link: '/citybuild/banksystem'
                         },
                         {
-                            label: 'How the job system works',
-                            translations: {
-                                de: 'Wie das Jobsystem funktioniert'
-                            },
-                            link: '/citybuild/jobsystem'
-                        },
-                        {
                             label: 'How our farm world works',
                             translations: {
                                 de: 'Wie unsere Farmwelt funktioniert'
